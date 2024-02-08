@@ -7,9 +7,35 @@ body {
 /* Project.css */
 
 .project-card {
-  transition: transform 0.2s; /* Add a smooth transition for the zoom effect */
+  transition: transform 0.2s; 
 }
 
 .project-card:hover {
-  transform: scale(1.1); /* Apply the zoom effect on hover */
+  transform: scale(1.1); 
+}
+
+/* About.css */
+
+.accordion {
+  margin-top: 15px;
+}
+
+.accordion-item {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #384040;
+  color: white;
+}
+
+.accordion-body {
+  padding: 10px;
+  background-color: #f8f9fa;
 }

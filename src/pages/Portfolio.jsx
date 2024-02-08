@@ -4,6 +4,7 @@ import About from "./About";
 import ContactMe from "./ContactMe";
 import TopNav from "./TopNav";
 import Project from "./Project";
+import Experience from "./Experience";
 
 const Portfolio = () => {
   return (
@@ -12,6 +13,7 @@ const Portfolio = () => {
       <Home />
       <About />
       <Project />
+      <Experience />
       <ContactMe />
     </div>
   );

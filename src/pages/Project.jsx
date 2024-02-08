@@ -4,19 +4,22 @@ import "../App.css";
 const Project = () => {
   const projects = [
     {
-      title: 'Project 1',
+      title: 'Office Request Management Tool',
       description: 'Description for Project 1',
       imageSrc: 'project1.jpg', 
+      link: "",
     },
     {
-      title: 'Project 2',
+      title: 'Linkedln Post Scheduler',
       description: 'Description for Project 2',
       imageSrc: 'project2.jpg', 
+      link: "",
     },
     {
-      title: 'Project 3',
+      title: 'Escrow Service',
       description: 'Description for Project 2',
       imageSrc: 'project2.jpg', 
+      link: "",
     },
   ];
 
